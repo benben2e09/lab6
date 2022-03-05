@@ -2,3 +2,8 @@ telegram
 python-telegram-bot>=13.1
 configparser
 redis
+
+- name: Security vulnerabilities scan
+  uses: aufdenpunkt/python-safety-check@master
+  with:
+    scan_requirements_file_only: 'true'
